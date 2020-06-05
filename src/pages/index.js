@@ -51,10 +51,7 @@ const Index = ({ data: { allPrismicHomepage } }) => (
     <Projects>
       <ProjectList
         title="Projects"
-        items={
-          (console.log(allPrismicHomepage.edges[0].node.data),
-          allPrismicHomepage.edges[0].node.data.body[0].items)
-        }
+        items={allPrismicHomepage.edges[0].node.data.body[0].items}
       />
       <ProjectList
         title="Opensource Projects"

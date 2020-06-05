@@ -21,11 +21,9 @@ const ProjectList = ({ title, items }) => {
       <Header>{title}</Header>
 
       <List>
-        {items.map(
-          (project, index) => (
-            console.log(project), (<Project key={index} {...project} />)
-          )
-        )}
+        {items.map((project, index) => (
+          <Project key={index} {...project} />
+        ))}
       </List>
     </Content>
   );
