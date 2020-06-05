@@ -1,0 +1,8 @@
+body {
+    --bg-opacity: 1;
+    min-height: 100vh;
+    font-family: Nunito, BlinkMacSystemFont, -apple-system, "Helvetica Neue";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgba(102, 126, 234, var(--bg-opacity));
+}

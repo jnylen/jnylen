@@ -1,0 +1,140 @@
+{
+    "Main": {
+        "notice": {
+            "type": "StructuredText",
+            "config": {
+                "single": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                "allowTargetBlank": true,
+                "label": "Notice"
+            }
+        },
+        "header": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading1",
+                "label": "Header"
+            }
+        },
+        "subheader": {
+            "type": "StructuredText",
+            "config": {
+                "single": "heading2, heading3, heading4, heading5, heading6",
+                "label": "Subheader"
+            }
+        },
+        "text": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                "allowTargetBlank": true,
+                "label": "Text"
+            }
+        },
+        "body": {
+            "type": "Slices",
+            "fieldset": "Slice zone",
+            "config": {
+                "labels": {
+                    "projects": [],
+                    "projects1": []
+                },
+                "choices": {
+                    "projects": {
+                        "type": "Slice",
+                        "fieldset": "Projects",
+                        "description": "Big Projects",
+                        "icon": "face",
+                        "display": "list",
+                        "non-repeat": {},
+                        "repeat": {
+                            "logo": {
+                                "type": "Image",
+                                "config": {
+                                    "constraint": {},
+                                    "thumbnails": [],
+                                    "label": "Logo"
+                                }
+                            },
+                            "website": {
+                                "type": "Link",
+                                "config": {
+                                    "allowTargetBlank": true,
+                                    "label": "Website"
+                                }
+                            },
+                            "language": {
+                                "type": "StructuredText",
+                                "config": {
+                                    "single": "heading1",
+                                    "label": "Language"
+                                }
+                            },
+                            "name": {
+                                "type": "StructuredText",
+                                "config": {
+                                    "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                                    "label": "Name"
+                                }
+                            },
+                            "description": {
+                                "type": "StructuredText",
+                                "config": {
+                                    "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                                    "allowTargetBlank": true,
+                                    "label": "Description"
+                                }
+                            }
+                        }
+                    },
+                    "projects1": {
+                        "type": "Slice",
+                        "fieldset": "Opensource Projects",
+                        "description": "Opensource Projects",
+                        "icon": "face",
+                        "display": "list",
+                        "non-repeat": {},
+                        "repeat": {
+                            "logo": {
+                                "type": "Image",
+                                "config": {
+                                    "constraint": {},
+                                    "thumbnails": [],
+                                    "label": "Logo"
+                                }
+                            },
+                            "website": {
+                                "type": "Link",
+                                "config": {
+                                    "allowTargetBlank": true,
+                                    "label": "Website"
+                                }
+                            },
+                            "language": {
+                                "type": "StructuredText",
+                                "config": {
+                                    "single": "heading1",
+                                    "label": "Language"
+                                }
+                            },
+                            "name": {
+                                "type": "StructuredText",
+                                "config": {
+                                    "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                                    "label": "Name"
+                                }
+                            },
+                            "description": {
+                                "type": "StructuredText",
+                                "config": {
+                                    "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                                    "allowTargetBlank": true,
+                                    "label": "Description"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
