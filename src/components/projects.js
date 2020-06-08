@@ -7,15 +7,11 @@ const Content = styled.div`
 `;
 
 const Projects = ({ children }) => {
-  return (
-    <Content>
-      {children}
-    </Content>
-  );
+  return <Content>{children}</Content>;
 };
 
 Projects.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Projects;

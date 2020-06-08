@@ -35,8 +35,18 @@
             "fieldset": "Slice zone",
             "config": {
                 "labels": {
-                    "projects": [],
-                    "projects1": []
+                    "projects": [
+                        {
+                            "name": "projects",
+                            "display": "Projects"
+                        }
+                    ],
+                    "projects1": [
+                        {
+                            "name": "opensource_projects",
+                            "display": "Opensource Projects"
+                        }
+                    ]
                 },
                 "choices": {
                     "projects": {

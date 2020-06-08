@@ -15,10 +15,20 @@ const List = styled.div`
   ${tw`px-8 font-light text-purple-dark`}
 `;
 
+const Labels = {
+  opensource_projects: "Opensource Projects",
+};
+
+const capitalize = function(string) {
+  string = string.replace(/_/g, " ");
+
+  return string.charAt(0).toUpperCase() + string.slice(1);
+};
+
 const ProjectList = ({ title, items }) => {
   return (
     <Content>
-      <Header>{title}</Header>
+      <Header>{Labels[title] || capitalize(title)}</Header>
 
       <List>
         {items.map((project, index) => (

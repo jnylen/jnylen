@@ -43,9 +43,11 @@ const Project = ({ name, logo, description, language, website }) => {
   return (
     <Content href={website.url} target="_blank">
       <InnerContent>
-        { logo.url && <Logo>
-          <img src={logo.url} />
-        </Logo>}
+        {logo.url && (
+          <Logo>
+            <img src={logo.url} />
+          </Logo>
+        )}
         <TextContent>
           <LanguageTiny>{language.text}</LanguageTiny>
           <Name>{name.text}</Name>

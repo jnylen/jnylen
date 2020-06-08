@@ -49,14 +49,13 @@ const Index = ({ data: { allPrismicHomepage } }) => (
     </Biography>
 
     <Projects>
-      <ProjectList
-        title="Projects"
-        items={allPrismicHomepage.edges[0].node.data.body[0].items}
-      />
-      <ProjectList
-        title="Opensource Projects"
-        items={allPrismicHomepage.edges[0].node.data.body[1].items}
-      />
+      {allPrismicHomepage.edges[0].node.data.body.map((project_list, index) => (
+        <ProjectList
+          title={project_list.slice_label}
+          key={index}
+          items={project_list.items}
+        />
+      ))}
     </Projects>
   </Layout>
 );
@@ -138,21 +137,3 @@ export const pageQuery = graphql`
     }
   }
 `;
-
-// export const pageQuery = graphql`
-//   query IndexQuery {
-//     prismicHomepage {
-//       data {
-//         header {
-//           text
-//         }
-//         subheader {
-//           text
-//         }
-//         text {
-//           html
-//         }
-//       }
-//     }
-//   }
-// `;
