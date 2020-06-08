@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import tw, { styled } from "twin.macro";
 
 const Content = styled.div`
-  ${tw`w-full lg:w-1/2`};
+  ${tw`w-full pb-8 lg:w-1/2`};
 `;
 
 const Projects = ({ children }) => {

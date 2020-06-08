@@ -8,15 +8,15 @@ const Content = styled.div`
 `;
 
 const InnerContainer = styled.div`
-  ${tw`flex items-center w-full px-12 my-auto`};
+  ${tw`flex items-center w-full px-4 py-10 my-auto md:px-12`};
 `;
 
 const InnerContent = styled.div`
-  ${tw`my-auto text-lg font-light text-purple-dark lg:text-xl`};
+  ${tw`my-auto text-lg font-light text-purple-dark md:text-xl`};
 `;
 
 const Notice = styled.div`
-  ${tw`w-full py-4 font-bold text-center text-purple-dark bg-blue-light`}
+  ${tw`w-full py-4 font-black leading-loose text-center text-purple-dark bg-blue-light`}
 `;
 
 const Biography = ({ notice, children }) => {
