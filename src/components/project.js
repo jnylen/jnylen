@@ -39,7 +39,6 @@ const Logo = styled.div`
 `;
 
 const Project = ({ name, logo, description, language, website }) => {
-  console.log(logo);
   return (
     <Content href={website.url} target="_blank">
       <InnerContent>
