@@ -20,7 +20,7 @@
     "gatsby-plugin-offline": "^3.2.3",
     "gatsby-plugin-react-helmet": "^3.6.0",
     "gatsby-plugin-sharp": "^2.9.0",
-    "gatsby-source-filesystem": "^2.3.4",
+    "gatsby-source-filesystem": "^2.7.0",
     "gatsby-source-prismic": "^3.2.1",
     "gatsby-transformer-sharp": "^2.5.17",
     "prop-types": "^15.7.2",
