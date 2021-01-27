@@ -19,7 +19,7 @@ const Labels = {
   opensource_projects: "Opensource Projects",
 };
 
-const capitalize = function(string) {
+const capitalize = function (string) {
   string = string.replace(/_/g, " ");
 
   return string.charAt(0).toUpperCase() + string.slice(1);

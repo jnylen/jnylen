@@ -51,7 +51,7 @@ const Index = ({ data: { allPrismicHomepage } }) => (
     <Projects>
       {allPrismicHomepage.edges[0].node.data.body.map((project_list, index) => (
         <ProjectList
-          title={project_list.slice_label}
+          title={project_list.slice_type}
           key={index}
           items={project_list.items}
         />
@@ -108,7 +108,7 @@ export const pageQuery = graphql`
                   }
                 }
               }
-              ... on PrismicHomepageBodyProjects1 {
+              ... on PrismicHomepageBodyOpensourceProjects {
                 id
                 items {
                   website {
