@@ -6497,10 +6497,10 @@ gatsby-source-filesystem@^2.3.23, gatsby-source-filesystem@^2.9.0:
     valid-url "^1.0.9"
     xstate "^4.14.0"
 
-gatsby-source-prismic@^3.2.1:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/gatsby-source-prismic/-/gatsby-source-prismic-3.3.2.tgz#37b21a5f2e68f67a0f63e670dadaf23a86cdf0b1"
-  integrity sha512-EF7fE32cjGds1FgOwSav1lg58AYM5mW2tUI0kllbJ2sDW9483Rkwo7Wsdlm/qZH0RhZX8n4ij9yiltt8nVdS5Q==
+gatsby-source-prismic@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/gatsby-source-prismic/-/gatsby-source-prismic-3.3.3.tgz#9aaed65b0db136360499df4cfad8b829b0981101"
+  integrity sha512-0tpmO+1VJz5OjMvUaV6YV2spUw03WYuEOl8qvumBde51DID96XmaAJaGbErDJNOnl3VpfvBPRcACxNxcVigcpA==
   dependencies:
     camel-case "^4.1.1"
     es-cookie "^1.3.2"
