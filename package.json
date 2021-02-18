@@ -18,7 +18,7 @@
     "gatsby-image": "^2.7.0",
     "gatsby-plugin-manifest": "^2.12.0",
     "gatsby-plugin-offline": "^3.8.0",
-    "gatsby-plugin-react-helmet": "^3.6.0",
+    "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sharp": "^2.14.1",
     "gatsby-source-filesystem": "^2.9.0",
     "gatsby-source-prismic": "^3.3.3",
@@ -36,7 +36,7 @@
     "postcss-preset-env": "^6.7.0",
     "prettier": "2.2.1",
     "styled-components": "^5.2.1",
-    "stylelint": "^13.7.2",
+    "stylelint": "^13.10.0",
     "tailwindcss": "^1.4.6",
     "twin.macro": "^2.2.0"
   },
